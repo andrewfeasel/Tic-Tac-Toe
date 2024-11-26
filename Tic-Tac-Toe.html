@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<title>Tic-Tac-Toe</title>
+<script src = 'script.js'></script>
+<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+</head>
+<body onload = 'update();'>
+    <center>
+    <div>
+        <h2 id = 'turn'></h2>
+        <table id = 'game'>
+            <tr>
+                <td onclick = 'move(0)' class = 'ui' id = 'zero'></td>
+                <td onclick = 'move(1)'  class = 'ui' id = 'one'></td>
+                <td onclick = 'move(2)' class = 'ui' id = 'two'></td>
+            </tr>
+            <tr>
+                <td onclick = 'move(3)'  class = 'ui' id = 'three'></td>
+                <td onclick = 'move(4)'  class = 'ui' id = 'four'></td>
+                <td onclick = 'move(5)'  class = 'ui' id = 'five'></td>
+            </tr>
+            <tr>
+                <td onclick = 'move(6)'  class = 'ui' id = 'six'></td>
+                <td onclick = 'move(7)'  class = 'ui' id = 'seven'></td>
+                <td onclick = 'move(8)'  class = 'ui' id = 'eight'></td>
+            </tr>
+        </table>
+        <button onclick = 'newGame();'>New Game</button>
+        <p>Made by Andrew Feasel</p>
+    </div>
+    </center>
+</body>
+</html>

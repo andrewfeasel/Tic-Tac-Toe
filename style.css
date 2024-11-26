@@ -1,0 +1,9 @@
+.ui{
+    width:96px;
+    height:96px;
+    font-size:96px;
+    border:1px solid #000000;
+    padding:4px;
+    background:#FFFFFF;
+    color:#000000;
+}
